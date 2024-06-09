@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>PacMan_WPF</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\blue.png" />
+    <None Remove="images\coin.png" />
+    <None Remove="images\pacman.png" />
+    <None Remove="images\pink.png" />
+    <None Remove="images\purple.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\blue.png" />
+    <Resource Include="images\coin.png" />
+    <Resource Include="images\pacman.png" />
+    <Resource Include="images\pink.png" />
+    <Resource Include="images\purple.png" />
+  </ItemGroup>
+
+</Project>
